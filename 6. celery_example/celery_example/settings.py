@@ -116,9 +116,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# 'redis://h:p16fb94948381e3af0195d9806cf0512ad6cf68707a4170735c7b0878661f839a@ec2-34-198-14-165.compute-1.amazonaws.com:13729'
-
-
 CELERY_BROKER_URL = 'redis://localhost:6379'
 CELERY_RESULT_BACKEND = 'redis://localhost:6379'
 CELERY_ACCEPT_CONTENT = ['application/json']
