@@ -5,7 +5,7 @@ from .models import Language, Paradigm, Programmer
 class LanguageSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Language
-        fields = ('id', 'name', 'paradigm')
+        fields = ('id', 'url', 'name', 'paradigm')
 
 
 class ParadigmSerializer(serializers.HyperlinkedModelSerializer):
